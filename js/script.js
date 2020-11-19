@@ -58,10 +58,10 @@
 		alert("Иное обозначение");
 	}
 //Tast4
-let massiv=1
+let numberCh=1
 
 	do{ 
-		if (massiv% 5== 0 && massiv% 3== 0){console.log("ThreeFive")}
-		   (massiv%3 == 0)?console.log("Three"):((massiv% 5== 0)?console.log("Five"):console.log(massiv))
-		massiv++;
-	}while(massiv<=100)
+		if (numberCh% 5== 0 && numberCh% 3== 0){console.log("ThreeFive")}
+		   (numberCh%3 == 0)?console.log("Three"):((numberCh% 5== 0)?console.log("Five"):console.log(numberCh))
+		numberCh++;
+	}while(numberCh<=100)
